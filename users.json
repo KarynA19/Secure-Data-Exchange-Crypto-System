@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "users": {
+    "alice": {
+      "public_key": [
+        107098073690206506409469267757790812028609122431424230075506578056866744670364,
+        9125634009316027535350695104736538219543077972426509018910454114246521328256
+      ],
+      "password": {
+        "kdf": "pbkdf2_hmac_sha256",
+        "iterations": 200000,
+        "salt": "2rd3DYT1Tb6xUNBE9ra7Kw==",
+        "dk": "ZeOampoNSfSvqdiGfyWuHyNGb924fG3g3+kFCSYN8N8="
+      },
+      "private_key_enc": {
+        "kdf": "pbkdf2_hmac_sha256",
+        "iterations": 200000,
+        "salt": "caEyR2ZjFIs/nXe0/M6T2Q==",
+        "iv": "387qyUbfT26pQF+B",
+        "ciphertext": "wsfogFa5pcs+Xw8dS6Q6Rv5uSrragxr43LczIJBJiRs=",
+        "tag": "XHsD0Ze23xDNAPSEyeTWrw=="
+      }
+    },
+    "bob": {
+      "public_key": [
+        40526936458878984594519392158240461798415087325712443226234703600890955665919,
+        81258863026732376285482443159801198281280855225904313514461591986457584201390
+      ],
+      "password": {
+        "kdf": "pbkdf2_hmac_sha256",
+        "iterations": 200000,
+        "salt": "P10w9wQFbu+72jPV5awmxg==",
+        "dk": "eAEzv43jMa51a24b3LAgIaAsvpGEsOT3RssuJQBnc/w="
+      },
+      "private_key_enc": {
+        "kdf": "pbkdf2_hmac_sha256",
+        "iterations": 200000,
+        "salt": "PDle351UOKmAM5CBl/LEZw==",
+        "iv": "aDT1uOLnNgpuNgxB",
+        "ciphertext": "DX0V9q4+10e72DbavHvEOaNrW2dZpSsP0fmolvXXwow=",
+        "tag": "lqtJFXssfhbDqO//v5lZ4g=="
+      }
+    }
+  }
+}
